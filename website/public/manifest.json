@@ -1,0 +1,15 @@
+{
+  "short_name": "Claire Liu",
+  "name": "Claire Liu Personal Website",
+  "icons": [
+    {
+      "src": "heart1.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
