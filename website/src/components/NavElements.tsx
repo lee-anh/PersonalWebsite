@@ -1,6 +1,8 @@
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
+// need to play with these guys to get them not to show when the media query is bigger
+// need to figure out how to get stylized component + regular component
 export const Nav = styled.div`
   align-items: center;
   background: #ffdeeb;

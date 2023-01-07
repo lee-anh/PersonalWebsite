@@ -24,9 +24,9 @@ function Employment(): React.ReactElement {
               variant="subtitle1"
               color="text.secondary"
             >
-              I've had a variety of internships in college as I experimented
-              with academic research, working in the start up space, and working
-              for a more established company. My favorite experience has been
+              I've had a variety of internships in college. I experimented with
+              academic research, working in the start up space, and working for
+              a more established company. My favorite experience has been
               working in industry. I strongly believe that we software engineers
               need to create products that improve the lives of users and
               benefit society at large.

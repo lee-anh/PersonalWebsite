@@ -5,7 +5,6 @@ import {
   CardContent,
   CardMedia,
   Typography,
-  useMediaQuery,
   useTheme,
 } from "@mui/material";
 import LafayetteLogo from "../static/laf_logo.png";
