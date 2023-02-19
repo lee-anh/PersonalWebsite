@@ -76,7 +76,8 @@ function Home(): React.ReactElement {
           <Typography variant="h4">Skills</Typography>
           <Typography>C++ ⭐️⭐️⭐️⭐️</Typography>
           <Typography>C ⭐️⭐️⭐️⭐️</Typography>
-          <Typography>React/Javascript ⭐️⭐️⭐️</Typography>
+          <Typography>JavaScript/Typescript ⭐️⭐️</Typography>
+          <Typography>React ⭐️⭐️⭐️</Typography>
           <Typography>SQL/Postgresql ⭐️⭐️</Typography>
           <Typography>Agile Methodology ⭐️⭐️⭐️</Typography>
         </Grid>

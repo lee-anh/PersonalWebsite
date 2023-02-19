@@ -1,7 +1,6 @@
 import React from "react";
 import { Page } from "../components/Page";
-import { Grid, Typography } from "@mui/material";
-import Job from "../components/Job";
+import { Grid, Link, Typography } from "@mui/material";
 
 function About(): React.ReactElement {
   return (
@@ -19,10 +18,19 @@ function About(): React.ReactElement {
             📚 Education
           </Typography>
           <Typography variant="body1">
-            I am a senior Marquis Fellow at Lafayette College in Easton, PA. I'm
-            completing a B.S. in Computer Science and a Math minor in 3 years,
-            and I currently hold a 4.0/4.0 GPA. Prior to that, I graduated as
-            valedictorian from Ashland High School in Massachusetts.
+            I am a senior{" "}
+            <Link
+              color="secondary"
+              href="https://marquis-scholars.lafayette.edu/who-are-the-marquis-scholars-fellows/"
+              target="_blank"
+              underline="none"
+            >
+              Marquis Fellow
+            </Link>{" "}
+            at Lafayette College in Easton, PA. I'm completing a B.S. in
+            Computer Science and a Math minor in 3 years, and I currently hold a
+            4.0/4.0 GPA. Prior to that, I graduated as valedictorian from
+            Ashland High School in Massachusetts.
             <br /> <br />I always strive to do my best academically and really
             understand and engage with the course material. I genuinely enjoy
             studying and learning about how things work. In addition to CS and
@@ -31,8 +39,8 @@ function About(): React.ReactElement {
             <br />
             <br />
             I believe that teaching is one of the best forms of learning, so I
-            serve as a Teaching Assistant in the Computer Science department at
-            my school. In the past I've TA'd Intro CS where I attended class and
+            am a Teaching Assistant in the Computer Science department at my
+            school. In the past I've TA'd Intro CS where I attended class and
             held Mentored Study Group sessions, which were like a combination of
             recitation and lab. I've also TA'd the Computer Organization lab
             which taught C and assembly. This semester I'm the TA for 2 sections
@@ -41,8 +49,16 @@ function About(): React.ReactElement {
             <br />
             <br />
             Two clubs that are important to me are Women in Computing (WINC) and
-            the Association of Computing Machinery: Lafayette Chapter (ACM). I
-            think WINC is a really important space for women to support one
+            the{" "}
+            <Link
+              color="secondary"
+              href="https://sites.lafayette.edu/acm/"
+              target="_blank"
+              underline="none"
+            >
+              Association of Computing Machinery: Lafayette Chapter (ACM)
+            </Link>
+            . I think WINC is a really important space for women to support one
             another. I am currently the President of ACM and I think ACM really
             helps to establish a sense of community among the CS students in the
             department.
@@ -58,6 +74,7 @@ function About(): React.ReactElement {
           <Typography variant="h4" mt={3}>
             🎵 Hobbies
           </Typography>
+
           <Typography variant="body1">
             I enjoy playing piano, ice skating, and spending time with my
             friends. I've also kept a journal since I was 7. After I graduate I

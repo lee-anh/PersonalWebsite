@@ -7,7 +7,6 @@ import {
   Typography,
   useTheme,
 } from "@mui/material";
-import LafayetteLogo from "../static/laf_logo.png";
 
 export type Props = {
   companyName: string;

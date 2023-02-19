@@ -35,7 +35,13 @@ function Project({
   youtubeLink,
 }: Props): React.ReactElement {
   return (
-    <Box mx={2} my={2}>
+    <Box
+      mx={2}
+      my={2}
+      sx={{
+        width: "400px",
+      }}
+    >
       <Card raised>
         {image && imageAlt && (
           <CardMedia component="img" src={image} alt={imageAlt} />
@@ -48,19 +54,19 @@ function Project({
               <GitHubIcon color="secondary" />
             </Link>
             {reportLink && (
-              <Link href={reportLink} mr={1}>
+              <Link href={reportLink} target="_blank" mr={1}>
                 <PictureAsPdfIcon color="secondary" />
               </Link>
             )}
             {youtubeLink && (
-              <Link href={youtubeLink} mr={1}>
+              <Link href={youtubeLink} target="_blank" mr={1}>
                 <YouTubeIcon color="secondary" />
               </Link>
             )}
           </Box>
-          <Typography variant="subtitle1">{dates}</Typography>
+          <Typography color="text.secondary">{dates}</Typography>
           <Typography>Language(s): {languages}</Typography>
-          <Typography>{notes}</Typography>
+          <Typography mt={1}>{notes}</Typography>
         </CardContent>
       </Card>
     </Box>

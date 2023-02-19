@@ -46,7 +46,6 @@ function App(): React.ReactElement {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
-          <Footer />
         </Router>
       </ThemeProvider>
     </>
